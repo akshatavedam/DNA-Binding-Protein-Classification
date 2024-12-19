@@ -23,10 +23,12 @@ Be sure to import the 2 fasta files into the notebook before running the code.
 
 ### Model and Dataset Folder 
 This folder contains the following pickle files: 
+
 Model 1: entire_stacked_model.pkl 
 Our group's first model is a stacked ensemble. To enable the models we created 
 to be saved and loaded quickly, they were saved as pickle files, but the code can 
 be rerun at any time. 
+
 Model 2: entire_rnn_model.pkl 
 Our group's second model is an RNN with a bidirectional LSTM. To enable the 
 models we created to be saved and loaded quickly, they were saved as pickle 
